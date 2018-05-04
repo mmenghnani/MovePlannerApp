@@ -58,7 +58,7 @@ function loadData() {
       iterate through response
       present articles on the page inside <ul id = "wikipedia=links"></ul> */
 
-      var wikiURL = "https://en.wikipaaedia.org/w/api.php";
+      var wikiURL = "https://en.wikipedia.org/w/api.php";
       wikiURL += '?' + $.param({
           'action' : 'opensearch',
           'search' : city,
